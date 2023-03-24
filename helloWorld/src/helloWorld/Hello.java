@@ -1,5 +1,6 @@
-package helloWorld;
-import java.util.Scanner;
+//package helloWorld;
+//import java.util.Scanner;
+//import java.io.IOException;
 
 /*public class Hello {
 
@@ -39,9 +40,9 @@ import java.util.Scanner;
 	}
 }*/
 
-public class Hello{
-	public static void main(String[] args) {
-		/*System.out.print("Input Number:");
+/*public class Hello{
+	public static void main(String[] args)  throws IOException{
+		System.out.print("Input Number:");
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 		
@@ -65,7 +66,7 @@ public class Hello{
 		}*/
 		
 		// 3월 23일 class
-		for(int i=2;i<10;i++) {
+		/*for(int i=2;i<10;i++) {
 			if(i==5) {
 				System.out.print("\n");
 				break;
@@ -74,6 +75,51 @@ public class Hello{
 				System.out.print(i + "*" + j + "=" + (i*j) + "\t");
 			}
 			System.out.print("\n");
+		}*/
+		
+		//assignment 2 - (1)
+/*public class Hello{
+	public static void main(String[] args) {
+		int num = 100000;
+		int d, h, m, s;
+		
+		s = 100000 % 60;
+		m = (100000 / 60) % 60;
+		h = (100000 / (60 * 60)) % 24;
+		d = (100000 / (60 * 60)) / 24;
+		System.out.print("100000s = " + d + " day " + h + " hours " + m + " minutes " + s + " seconds ");
+	}
+}*/
+		//assignment 2 - (2)
+package helloWorld;
+import java.util.Scanner;
+import java.io.IOException;
+
+public class Hello{
+	public static void main(String[] args)  throws IOException{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Input Number 1:");
+		int num1 = input.nextInt();
+		System.out.print("Input Number 2:");
+		int num2 = input.nextInt();
+		System.out.print("Input Operateor:");
+		int oper;
+		oper = System.in.read();
+		
+		if(oper == 43) {
+			System.out.print(num1 + " + " + num2 + " = " + (num1+num2));
+		}
+		else if(oper == 45) {
+			System.out.print(num1 + " - " + num2 + " = " + (num1-num2));
+		}
+		else if(oper == 42) {
+			System.out.print(num1 + " * " + num2 + " = " + (num1*num2));
+		}
+		else if(oper == 47) {
+			System.out.print(num1 + " / " + num2 + " = " + (num1/num2));
+		}
+		else {
+			System.out.print("Error");
 		}
 	}
 }
