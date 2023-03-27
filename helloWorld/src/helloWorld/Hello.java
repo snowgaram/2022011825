@@ -30,7 +30,7 @@
 		System.out.println("Celsius temperature:" + C);
 	}
 }*/
-/*public class Hello{
+/*public class Hello{ // with 서문성
 	public static void main(String[] args) {
 		System.out.println("1. Add Food Materials");
 		System.out.println("2. Delete Food Materials");
@@ -39,6 +39,49 @@
 		System.out.println("5. Exit");
 	}
 }*/
+package helloWorld;
+import java.util.Scanner;
+
+public class Hello {
+   public static void main(String[] args) {
+      int i = 0;
+      int count = 10 , num;
+      Scanner scan = new Scanner(System.in);
+      
+      while (i < count){
+    	  System.out.println("1.Add Food Materials");
+          System.out.println("2.Delete Food Materials");
+          System.out.println("3.Edit Food Materials");
+          System.out.println("4.View Food Materials");
+          System.out.println("5.Show A Menu");
+          System.out.println("6.Exit");
+          System.out.println("Select one number between 1 ~ 5:");
+          num = scan.nextInt();
+          
+          switch(num) {
+          case 1:
+             System.out.print("Input Food Materials Name to Add:");
+             String nameA = scan.next();
+             System.out.print("Input Food Materials Deadline:");
+             int month = scan.nextInt();
+             int date = scan.nextInt();
+             System.out.print("\n");
+             break;
+          case 2:
+             System.out.print("Input Food Materials Name to Delete:" );
+             String nameD = scan.next();
+          case 3:
+             System.out.print("Input Food Materials Name to Edit:");
+          case 4:
+          case 5:
+          case 6:
+        	  System.out.print("\n");
+             break;
+          }
+          i++;
+      }
+   }
+}
 
 /*public class Hello{
 	public static void main(String[] args)  throws IOException{
@@ -90,8 +133,9 @@
 		System.out.print("100000s = " + d + " day " + h + " hours " + m + " minutes " + s + " seconds ");
 	}
 }*/
+
 		//assignment 2 - (2)
-package helloWorld;
+/*package helloWorld;
 import java.util.Scanner;
 import java.io.IOException;
 
@@ -122,4 +166,4 @@ public class Hello{
 			System.out.print("Error");
 		}
 	}
-}
+}*/
