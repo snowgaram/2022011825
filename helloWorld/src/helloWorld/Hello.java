@@ -1,7 +1,7 @@
 package helloWorld;
 import java.util.Scanner;
 
-public class Hello {
+/*public class Hello {
    public static void main(String[] args) {
       int i = 0;
       int count = 10 , num;
@@ -34,13 +34,13 @@ public class Hello {
           case 4:
           case 5:
           case 6:
-        	  System.out.print("\n");
+        	 System.out.print("\n");
              break;
           }
           i++;
       }
    }
-}
+}*/
 
 //package helloWorld;
 //import java.util.Scanner;
@@ -85,8 +85,8 @@ public class Hello {
 }*/
 
 /*public class Hello{
-	public static void main(String[] args)  throws IOException{
-		System.out.print("Input Number:");
+	public static void main(String[] args)  //throws IOException{
+		/*System.out.print("Input Number:");
 		Scanner input = new Scanner(System.in);
 		int num = input.nextInt();
 		
@@ -96,10 +96,10 @@ public class Hello {
 				System.out.print(i);
 			}
 			i += 1;
-		}*/
+		}
 		
 		// * 이 기호로 사각형이나 삼각형 만들기
-		/*for(int i =5;i>0;i--) {
+		for(int i =5;i>0;i--) {
 			for(int j=i; j>0 ; j--) {
 				System.out.print("");
 			}
@@ -107,7 +107,7 @@ public class Hello {
 				System.out.print("*");
 			}
 			System.out.print("\n");
-		}*/
+		}
 		
 		// 3월 23일 class
 		/*for(int i=2;i<10;i++) {
@@ -168,3 +168,12 @@ public class Hello{
 		}
 	}
 }*/
+public class Hello{
+	public static void printSquare(double x) {
+		System.out.println(x*x);
+	}
+	
+	public static void main(String[] args) {
+		printSquare(5);
+	}
+}
