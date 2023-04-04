@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 //assignment #3
-public class Hello{
+/*public class Hello{
 	public static void main(String[] args) {
 		int i = 0; 
 		int j = 0; 
@@ -39,7 +39,7 @@ public class Hello{
 		String[] words = sentence.split(" "); 
 		return words.length;
 	}
-}
+}*/
 /*public class Hello{
 	public static void main(String[] args) {
 		int[][] matrix1 = { {1, 0, 2}, {-1, 3, 1} }; 
