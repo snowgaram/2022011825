@@ -8,7 +8,8 @@ public class Dude {
 	public void sayName() {
 		System.out.println(name);
 	}
-	public static void main(String[] args) {
-		System.out.println("!!");
+	
+	public void punchFace(Dude target) {
+		target.hp -= 10;
 	}
 }
